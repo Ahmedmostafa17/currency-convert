@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convert </title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel=" stylesheet" href="css/all.min.css"  >
+    <link rel=" stylesheet" href="css/bootstrap.min.css"  >
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel=" stylesheet" href="css/style.css"  >
+
+
+</head>
+<body>
+
+<section>
+  <div class="linear">
+<div class="container">
+<div class="row">
+
+  <div class="col-sm-8 offset-sm-2 display-4    text-white text-center p-5 ">
+<h1  class="display-5 "> CONVERT FROM: USD </h1>
+<h1>TO: EGP, EUR,SAR ,GBP, AED, </h1>
+<form id="takeData">
+  <div class="form-group">
+    <input type="number" class="form-control" id="inputData" placeholder=" write USD Number">
+
+  </div>
+    <!-- <div class="form-group">
+    <select class="form-control" id="select-data">
+<option value="USD">USD</option>
+<option value="EGP">EGP</option>
+<option value="EUR">EUR</option>
+<option value="GBP">GBP</option>
+<option value="SAR">SAR</option>
+
+    </select>
+
+  </div>
+   -->
+  <div class="form-group">
+    <p class="error "></p>
+  </div>
+  <div class="form-goup">
+    <input type="submit" class=" form-control  btn  btn-success" id="" value="Convert" >
+
+  </div>
+
+</form>
+
+<div id="output">
+
+
+  <div class="card bg-primary  mt-3 mb-3 d-none    show-b" >
+
+    <div class="card-block">
+    
+    
+    <h3 id="outD"></h3>
+    
+    </div>
+    </div>
+
+  <div class="card bg-info mt-3 mb-3 d-none   show-b" >
+
+    <div class="card-block">
+    
+    
+    <h3 id="outE"></h3>
+    
+    
+    </div>
+    </div>
+
+<div class="card bg-danger  mt-3 mb-3 d-none show-b" >
+
+  <div class="card-block">
+  
+  
+  <h3 id="outU"></h3>
+  
+  </div>
+  </div>
+  <div class="card bg-warning  mt-3 mb-3 d-none show-b" >
+
+    <div class="card-block">
+    
+    
+    <h3 id="outS"></h3>
+    
+    </div>
+    </div>
+    <div class="card bg-success  mt-3 mb-3 d-none show-b" >
+
+      <div class="card-block">
+      
+      
+      <h3 id="outG"></h3>
+      
+      </div>
+      </div>
+      <div class="card   mt-3 mb-3 d-none show-b" >
+
+        <div class="card-block">
+        
+        
+        <h3 id="outA"></h3>
+        
+        </div>
+        </div>
+
+</div>
+
+  </div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

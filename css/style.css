@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+
+
+
+}
+section
+
+{
+background-image: url(../images/10.jpeg);
+background-position: center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 900px;
+}
+.linear
+
+{
+
+    height: 900px;
+    background-color: rgba(0, 0, 0, .6);   
+}
+.show-e
+{
+    display: block !important;
+    color: black;
+}
+.error
+{
+    font-size: 16px;
+}
